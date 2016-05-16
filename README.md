@@ -4,15 +4,23 @@ Not just another repo
 This change was made on hithub, branch testing
 
 0. show all branches that exist
+
 	% git ls-remote
 
 1. master branch and test branch.
+
 	% git remote show origin
 
 2. show what branch I'm on
+
 	% git status
 
-3. show how many commits I'm behind on local branch
+3. show how many commits I'm behind on local branch, you must do fetch first.
+	
+	% git fetch 
+	% git status -sb
+
+	## master...origin/master [behind 1]
 
 
 4. show how many commits I'm behind master before I try to merge
