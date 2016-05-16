@@ -25,6 +25,9 @@ This change was made on hithub, branch testing
 
 4. show how many commits I'm behind master before I try to merge
 
+	% git log ...<OTHER BRANCH NAME> - will show you commits made on other branch
+	% git diff ...<OTHER BRANCH NAME> - will show you the diffs
+
 5. will my commit/push require a merge
 
 6. how to simulate a conflict
